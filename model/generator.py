@@ -2,7 +2,6 @@ from simpletransformers.seq2seq import (
     Seq2SeqModel,
     Seq2SeqArgs,
 )
-import streamlit as st
 from utils.variable import *
 model_args = Seq2SeqArgs()
 model_args.src_lang = 'vi_VN'

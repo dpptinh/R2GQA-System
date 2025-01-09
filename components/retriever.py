@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
-import torch
 from rank_bm25 import BM25Okapi
 import string
 from tqdm.autonotebook import tqdm
