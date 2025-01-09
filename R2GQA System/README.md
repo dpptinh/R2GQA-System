@@ -15,7 +15,6 @@ This project is part of research published in the paper [R2GQA: Retriever-Reader
 ## Installation
 
 ### Requirements
-- Python 3.7+
 - Libraries listed in `requirements.txt`
 
 ### Installation Steps
