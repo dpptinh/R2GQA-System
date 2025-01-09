@@ -1,0 +1,7 @@
+python-dotenv
+transformers
+sentence_transformers
+pyvi
+simpletransformers
+rank-bm25
+datasets
