@@ -1,4 +1,4 @@
-# R2GQA - Automated Question Answering System
+# R2GQA: Retriever-Reader-Generator Question Answering System to Support Students Understanding Legal Regulations in Higher Education
 
 ## Introduction
 

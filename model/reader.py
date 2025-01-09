@@ -1,6 +1,5 @@
 from simpletransformers.ner import NERModel, NERArgs
 from utils.variable import *
-import streamlit as st
 # Define labels
 label_list = ["B", "I", "O"]
 label2id = {l: i for i, l in enumerate(label_list)}
