@@ -1,16 +1,20 @@
 # R2GQA: Retriever-Reader-Generator Question Answering System to Support Students Understanding Legal Regulations in Higher Education
 
-## Introduction
+## 🔍 Introduction
 
-R2GQA is an automated question answering system developed to help students better understand legal regulations in higher education. The system combines advanced methods in information retrieval and answer generation, including:
+**R2GQA** is an automated question answering system designed to assist students in comprehending legal regulations related to higher education. It leverages a combination of modern information retrieval and natural language processing techniques to deliver accurate and user-friendly answers in Vietnamese.
 
-- Searching for relevant context from legal document databases
-- Extracting precise answers from question and context
-- Generating natural, user-friendly responses
+The system consists of three main components working together:
 
-This project is part of research published in the paper [R2GQA: Retriever-Reader-Generator Question Answering System to Support Students Understanding Legal Regulations in Higher Education](https://arxiv.org/abs/2409.02840).
+1. **Retriever**
+   Combines **BM25** and **SBERT** to identify and fetch the most relevant legal text passages from a large corpus based on the user’s question.
 
-**Note**: The dataset in this repository is only permitted for research purposes, not for commercial use.
+2. **Reader**
+   Utilizes transformer-based models such as **XLM-RoBERTa-large** to extract precise answers from the retrieved documents.
+
+3. **Generator**
+   Synthesizes the extracted answers into natural, concise, and user-friendly responses tailored for Vietnamese legal language.
+
 
 ## Installation
 
@@ -46,13 +50,6 @@ Run the application:
 python main.py
 ```
 
-## System Architecture
-
-The system consists of 3 main components:
-
-1. **Retriever**: Searches and retrieves text passages relevant to the question
-2. **Reader**: Extracts precise answers from text passages
-3. **Generator**: Generates natural responses based on extracted answers
 
 ## Contributing
 
